@@ -1,8 +1,8 @@
-# DeepSeek Harness Desktop
+# HelloDeepseekHarness（HDSH）
 
 > 非官方 Windows 一键安装包：将 DeepSeek Harness（dsh）WebUI 封装为独立桌面应用，内置完整运行时，无需任何前置安装，双击即用。
 
-本仓库提供 DeepSeek Harness 桌面版（非官方社区构建）的安装程序与使用文档。Electron 壳源码、构建配置与内置运行时位于源码工程（`package-app/`），随本仓库或独立源码仓库发布。
+本仓库提供 HelloDeepseekHarness 桌面版（非官方社区构建）的安装程序与使用文档。Electron 壳源码、构建配置与内置运行时位于源码工程（`package-app/`），随本仓库或独立源码仓库发布。
 
 ## 特性
 
@@ -14,7 +14,7 @@
 
 ## 下载
 
-前往 [Releases](https://github.com/FeatherCloudSky/DSHBox/releases) 下载最新版 `DeepSeek-Harness-Setup-<version>.exe`。
+前往 [Releases](https://github.com/FeatherCloudSky/HDSH/releases) 下载最新版 `HelloDeepseekHarness-Setup-<version>.exe`。
 
 | 项 | 要求 |
 |---|---|
@@ -25,12 +25,12 @@
 
 ## 安装
 
-1. 双击 `DeepSeek-Harness-Setup-<version>.exe`，按向导操作；
-2. 可自定义安装目录（默认 `%LOCALAPPDATA%\Programs\DeepSeek Harness`）；
+1. 双击 `HelloDeepseekHarness-Setup-<version>.exe`，按向导操作；
+2. 可自定义安装目录（默认 `%LOCALAPPDATA%\Programs\HelloDeepseekHarness`）；
 3. 向导自动创建桌面快捷方式与开始菜单项；
 4. 安装完成后自动启动应用。
 
-> 提示：安装前请先关闭正在运行的 DeepSeek Harness 窗口，避免程序文件被占用导致安装/升级失败。
+> 提示：安装前请先关闭正在运行的 HelloDeepseekHarness 窗口，避免程序文件被占用导致安装/升级失败。
 
 > 提示：本安装包为社区构建，**未做代码签名**（无商业签名证书），Windows SmartScreen 可能提示"已保护你的电脑"，点击"更多信息 → 仍要运行"即可；个别杀毒软件可能误报，属未签名程序的常见现象。
 
@@ -42,8 +42,8 @@
 
 | 项 | 位置 |
 |---|---|
-| 用户数据（会话/配置/插件） | `%APPDATA%\DeepSeek Harness\dsh-home` |
-| 界面缓存（Chromium） | `%APPDATA%\DeepSeek Harness\user-data` |
+| 用户数据（会话/配置/插件） | `%APPDATA%\HelloDeepseekHarness\dsh-home` |
+| 界面缓存（Chromium） | `%APPDATA%\HelloDeepseekHarness\user-data` |
 | 服务端口 | `127.0.0.1:8898`（固定） |
 
 备份：直接复制 `dsh-home` 目录即可完整备份。
@@ -85,6 +85,10 @@ package-app/
 ## 作者
 
 - [FeatherCloudSky](https://github.com/FeatherCloudSky)
+
+## 构建声明
+
+本项目（Electron 外壳、构建配置、安装打包流程）由 **DeepSeek**（AI 编码助手）构建完成。内置运行时 `@deepseek-ai/dsh` 为 DeepSeek 官方开源组件（MIT License，随包保留其 LICENSE 文件）。
 
 ## 免责声明
 

@@ -1,4 +1,4 @@
-# DeepSeek Harness Desktop 1.0.0
+# HelloDeepseekHarness 1.0.0
 
 > 非官方 Windows 一键安装包：将 DeepSeek Harness（dsh）WebUI 封装为独立桌面应用，内置完整 Node.js 与 dsh 运行时，无需任何前置环境，双击即用。
 
