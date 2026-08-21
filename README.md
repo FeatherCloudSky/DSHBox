@@ -14,9 +14,7 @@
 
 ## 下载
 
-前往 [Releases](https://github.com/FeatherCloudSky/<仓库名>/releases) 下载最新版 `DeepSeek-Harness-Setup-<version>.exe`。
-
-> 发布前请将上方链接中的 `<仓库名>` 替换为实际仓库名。
+前往 [Releases](https://github.com/FeatherCloudSky/DSHBox/releases) 下载最新版 `DeepSeek-Harness-Setup-<version>.exe`。
 
 | 项 | 要求 |
 |---|---|
