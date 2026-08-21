@@ -1,0 +1,38 @@
+# ---- Dependencies ----
+node_modules/
+jspm_packages/
+
+# ---- Build output ----
+dist/
+out/
+release/
+build/win-unpacked/
+*.exe
+*.exe.blockmap
+
+# ---- Local runtime & user data (sensitive!) ----
+# dsh-home contains credentials (.credentials.yaml) and user data — NEVER commit
+dev-data/
+dsh-home/
+user-data/
+app-data/
+
+# ---- Logs & temp ----
+*.log
+*.err
+*.pid
+npm-debug.log*
+yarn-error.log*
+*.tmp
+*.bak
+*.bak-*
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.suo
