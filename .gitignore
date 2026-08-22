@@ -10,6 +10,9 @@ build/win-unpacked/
 *.exe
 *.exe.blockmap
 
+# ---- Bundled runtime (third-party binaries, provisioned locally; see package-app/README.md) ----
+package-app/runtime-staging/
+
 # ---- Local runtime & user data (sensitive!) ----
 # dsh-home contains credentials (.credentials.yaml) and user data — NEVER commit
 dev-data/

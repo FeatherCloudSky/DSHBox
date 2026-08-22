@@ -1,3 +1,16 @@
+# HelloDeepseekHarness 1.0.1
+
+> 非官方 Windows 一键安装包：将 DeepSeek Harness（dsh）WebUI 封装为独立桌面应用，内置完整 Node.js 与 dsh 运行时，无需任何前置环境，双击即用。
+
+## 1.0.1 更新（2026-08-22）
+
+- **修复安装器崩溃**：在 Windows 11 24H2 及更新版本上，全新安装时安装器可能在启动瞬间崩溃（事件查看器显示 `System.dll` 模块 `0xc0000005` 崩溃、窗口不出现）。根因是 electron-builder ≤26.8 的 NSIS 模板存在越界读缺陷，本次升级 electron-builder 至 26.15.3（上游已在 26.9.0 修复）。受影响的用户请改用本版本安装包
+- **修复 VC++ 运行库检查误报**：安装器为 32 位进程，此前读取 64 位注册表视图会被重定向导致漏检/误报，现已切换到 64 位视图
+- 静默安装（`/S`）模式下不再尝试弹窗，改为日志输出
+- 源码工程 `package-app/` 随仓库发布，支持从源码自行构建
+
+---
+
 # HelloDeepseekHarness 1.0.0
 
 > 非官方 Windows 一键安装包：将 DeepSeek Harness（dsh）WebUI 封装为独立桌面应用，内置完整 Node.js 与 dsh 运行时，无需任何前置环境，双击即用。

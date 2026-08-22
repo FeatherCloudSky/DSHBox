@@ -2,7 +2,7 @@
 
 > 非官方 Windows 一键安装包：将 DeepSeek Harness（dsh）WebUI 封装为独立桌面应用，内置完整运行时，无需任何前置安装，双击即用。
 
-本仓库提供 HelloDeepseekHarness 桌面版（非官方社区构建）的安装程序与使用文档。Electron 壳源码、构建配置与内置运行时位于源码工程（`package-app/`），随本仓库或独立源码仓库发布。
+本仓库提供 HelloDeepseekHarness 桌面版（非官方社区构建）的安装程序与使用文档。Electron 壳源码与构建配置位于 `package-app/`（内置运行时体积较大不入库，构建前按 `package-app/README.md` 说明本地准备）。
 
 ## 特性
 
