@@ -14,7 +14,9 @@
 
 ## 下载
 
-前往 [Releases](https://github.com/FeatherCloudSky/HDSH/releases) 下载最新版 `HelloDeepseekHarness-Setup-<version>.exe`。
+**最新版本：v1.0.1**（[更新说明](https://github.com/FeatherCloudSky/HDSH/releases/tag/ver1.0.1)）
+
+前往 [Releases](https://github.com/FeatherCloudSky/HDSH/releases) 下载最新版 `HelloDeepseekHarness-Setup-1.0.1.exe`。
 
 | 项 | 要求 |
 |---|---|
@@ -25,7 +27,7 @@
 
 ## 安装
 
-1. 双击 `HelloDeepseekHarness-Setup-<version>.exe`，按向导操作；
+1. 双击 `HelloDeepseekHarness-Setup-1.0.1.exe`，按向导操作；
 2. 可自定义安装目录（默认 `%LOCALAPPDATA%\Programs\HelloDeepseekHarness`）；
 3. 向导自动创建桌面快捷方式与开始菜单项；
 4. 安装完成后自动启动应用。
